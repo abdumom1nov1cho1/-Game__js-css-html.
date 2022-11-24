@@ -1,0 +1,54 @@
+.game{
+    width: 600px;
+    height: 200px;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+#dino{
+    width: 70px;
+    height: 70px;
+    background-image: url(/images/purepng.com-mario-runningmariofictional-charactervideo-gamefranchisenintendodesigner-1701528632608aaskj.png);
+    background-size: 70px 70px;
+    position: relative;
+    top: 130px;
+    left: 20px;
+}
+#cactus{
+    width: 70px;
+    height: 80px;
+    background-image: url(/images/156826-building-hotel-vector-free-transparent-image-hq.png);
+    background-size: 70px 80px;
+    position: relative;
+    top: 53px;
+    left: 550px;
+    animation: cactusMow 3s infinite linear;
+}
+@keyframes cactusMow{
+
+    0%{
+        left: 550px;
+    }
+    100%{
+        left: -20px;
+    }
+}
+.boz{
+    animation: boz 1s linear;
+}
+@keyframes boz{
+    0%{
+        top: 150px;
+    }
+    30%{
+        top: 130px;
+    }
+    50%{
+        top: 80px;
+    }
+    80%{
+        top: 130px;
+    }
+    100%{
+        top: 150px;
+    }
+}
